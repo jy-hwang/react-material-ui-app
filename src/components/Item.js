@@ -13,7 +13,7 @@ import React from "react";
 
 const Item = () => {
   return (
-    <Card>
+    <Card sx={{ margin: 3 }}>
       <CardHeader
         avatar={<Avatar sx={{ backgroundColor: "secondary.main" }}>R</Avatar>}
         action={
