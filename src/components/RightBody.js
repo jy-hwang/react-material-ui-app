@@ -7,10 +7,9 @@ import {
   ImageListItem,
   Switch,
 } from "@mui/material";
-import React, { useState } from "react";
+import React from "react";
 
-const RightBody = () => {
-  const [mode, setMode] = useState("light");
+const RightBody = ({ mode, setMode }) => {
   return (
     <Box flex={1} p={2} sx={{}}>
       <FormGroup>
